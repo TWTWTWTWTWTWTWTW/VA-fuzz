@@ -1,0 +1,21 @@
+{
+    "intents":[
+        {
+            "intent": "Turn on cross traffic alert",
+            "examples": [
+                "Route t. moo the airport",
+                "moot re to the airport",
+                "Lead tee moo the supermarket"
+
+            ]
+        },
+        {
+            "intent": "Turn on defrost",
+            "examples": [
+                "toot me rhew the airport",
+                "Route te mu the airport",
+                "toot me rioux the airport"
+            ]
+        }
+    ]
+}

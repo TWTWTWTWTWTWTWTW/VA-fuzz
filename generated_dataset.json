@@ -1,0 +1,312 @@
+{
+    "intents":[
+        {
+            "intent": "Turn on cross traffic alert",
+            "examples": [
+                "Route t. moo the airport",
+                "moot re to the airport",
+                "Lead tee moo the supermarket",
+                "tet directions goo the mall",
+                "met directions to the gaulle",
+                "Route tea mu the airport",
+                "mette directions to the gaul",
+                "Route ti mu the airport",
+                "mette directions to the gaulle",
+                "Route tea moo the airport",
+                "Route t. mu the airport",
+                "Lead ti moo the supermarket",
+                "moot ree to the airport",
+                "moot reeh to the airport",
+                "Route tee mu the airport",
+                "met directions to the gaul",
+                "mau shih the way to the park",
+                "moot rhee to the airport",
+                "Route t mu the airport"
+            ]
+        },
+        {
+            "intent": "Turn on defrost",
+            "examples": [
+                "toot me rhew the airport",
+                "Route te mu the airport",
+                "toot me rioux the airport",
+                "tuite me rue the airport",
+                "tuite me rhue the airport",
+                "tuite me roux the airport",
+                "toot me rew the airport",
+                "toote me rhue the airport",
+                "tuite me ru the airport",
+                "Route t moo the airport",
+                "tuite me rew the airport",
+                "Route te moo the airport",
+                "Route ti moo the airport",
+                "toot me rue the airport",
+                "toot me rhue the airport",
+                "Lead t moo the supermarket",
+                "toote me rhew the airport",
+                "toote me rew the airport",
+                "Lead te moo the supermarket",
+                "toot me ru the airport",
+                "toote me roux the airport",
+                "Lead te mu the supermarket",
+                "tuite me rhew the airport",
+                "toote me ru the airport",
+                "Lead tea moo the supermarket",
+                "toote me rue the airport",
+                "toot me roux the airport"
+            ]
+        },
+        {
+            "intent": "Turn on air conditioning",
+            "examples": [
+                "tuite me rioux the airport",
+                "toote me rioux the airport"
+            ]
+        },
+        {
+            "intent": "Open windows",
+            "examples": [
+                "met directions to the gall",
+                "toe me the way shiu the park",
+                "Show me the tae wu the park",
+                "towe me the way shoo the park",
+                "Show peay the way to the mark",
+                "Get directions mu the tol",
+                "Show tea the way mu the park",
+                "Show peay the way to the marque",
+                "Show p the way to the marque",
+                "Show p the way to the marc",
+                "Show p the way to the mark",
+                "Show me the tae whew the park",
+                "Show pee the way to the marc",
+                "Get directions mu the tall",
+                "Direct ti moo the hotel",
+                "Show p. the way to the marke",
+                "Show pea the way to the mark",
+                "Show me the tae woo the park",
+                "Show p the way to the marke",
+                "tow me the way shew the park",
+                "Show pee the way to the marke",
+                "towe me the way shoe the park",
+                "tow me the way shue the park",
+                "Show p the way to the merc",
+                "Show peay the way to the marc",
+                "toe me the way shue the park",
+                "mette directions to the gall",
+                "tow me the way shu the park",
+                "towe me the way schue the park",
+                "towe me the way schuh the park",
+                "Show pee the way to the mark",
+                "Direct te mu the hotel",
+                "Direct te moo the hotel",
+                "towe me the way shew the park",
+                "Show me the tay whew the park",
+                "Show p. the way to the mark",
+                "toe me the way shu the park",
+                "Route tee moo the airport",
+                "Direct t moo the hotel",
+                "toe me the way schue the park",
+                "Show peay the way to the marke",
+                "Get directions moo the taul",
+                "Show ti the way mu the park",
+                "Show pea the way to the marque",
+                "Show p. the way to the marc",
+                "Direct tee moo the hotel",
+                "Show pea the way to the marc",
+                "Show me the tay wu the park",
+                "Get directions mu the taul",
+                "tete directions gu the mall",
+                "Show pea the way to the marke",
+                "Show me the tay woo the park",
+                "tet directions gu the mall",
+                "Show tee the way mu the park",
+                "Show p. the way to the marque",
+                "towe me the way shiu the park",
+                "Show pee the way to the marque",
+                "toe me the way schuh the park",
+                "toe me the way shoe the park",
+                "tete directions goo the mall"
+            ]
+        },
+        {
+            "intent": "Activate navigation",
+            "examples": [
+                "Get directions moo the tol",
+                "Get directions moo the tall"
+            ]
+        },
+        {
+            "intent": "Turn on radio",
+            "examples": [
+                "ted me loux the supermarket",
+                "Show peay the way to the merc",
+                "ted me lou the supermarket",
+                "med li to the supermarket",
+                "Guide tee moo the office",
+                "ted me lieu the supermarket",
+                "Guide te mu the office",
+                "Show wiehe the mae to the park",
+                "Show wiehe the mey to the park",
+                "ted me loo the supermarket",
+                "Show pea the way to the merc",
+                "med lee to the supermarket",
+                "ted me lue the supermarket",
+                "Show pee the way to the merc",
+                "Show wiehe the mei to the park",
+                "Direct ti mu the hotel",
+                "Show ti the way moo the park",
+                "ted me lu the supermarket",
+                "Direct tea mu the hotel",
+                "ted me lew the supermarket",
+                "tow me the way shoe the park",
+                "Guide t moo the office",
+                "Show wiehe the maye to the park",
+                "Lead tea mu the supermarket",
+                "Guide t. moo the office",
+                "ted me leu the supermarket",
+                "Direct tee mu the hotel",
+                "Show wiehe the may to the park",
+                "ted me louw the supermarket",
+                "Direct t mu the hotel",
+                "Guide tea moo the office",
+                "Show t the way mu the park",
+                "tow me the way schoo the park"
+            ]
+        },
+        {
+            "intent": "Set reminder",
+            "examples": [
+                "Guide tee mu the office",
+                "Guide ti mu the office",
+                "Guide tea mu the office",
+                "Guide ti moo the office",
+                "Guide t mu the office"
+            ]
+        },
+        {
+            "intent": "Turn off engine",
+            "examples": [
+                "Guide t. mu the office",
+                "Direct tea moo the hotel",
+                "Direct t. moo the hotel",
+                "towe me the way schoo the park",
+                "Direct t. mu the hotel"
+            ]
+        },
+        {
+            "intent": "Turn off hazard lights",
+            "examples": [
+                "mau shi the way to the park",
+                "mau xi the way to the park",
+                "Show te the way moo the park",
+                "mau shieh the way to the park",
+                "Lead ti mu the supermarket",
+                "mau sze the way to the park",
+                "mau she the way to the park",
+                "Lead t mu the supermarket",
+                "Guide te moo the office"
+            ]
+        },
+        {
+            "intent": "Play music",
+            "examples": [
+                "mow sze the way to the park",
+                "mo sze the way to the park",
+                "whoa me the shea to the park",
+                "Show oui the mae to the park",
+                "Show wee the mey to the park",
+                "moe xi the way to the park",
+                "mo shih the way to the park",
+                "wo me the shay to the park",
+                "mow she the way to the park",
+                "meaux shih the way to the park",
+                "meaux sze the way to the park",
+                "woe me the shay to the park",
+                "mo shi the way to the park",
+                "woe me the schey to the park",
+                "Show wee the may to the park",
+                "mow xi the way to the park",
+                "wo me the shea to the park",
+                "Show we the mae to the park",
+                "Show we the mey to the park",
+                "Show wee the mei to the park",
+                "Show oui the mey to the park",
+                "moe shieh the way to the park",
+                "meaux she the way to the park",
+                "Show we the may to the park",
+                "Show oui the maye to the park",
+                "Show oui the may to the park",
+                "moe sze the way to the park",
+                "mo she the way to the park",
+                "mow shi the way to the park",
+                "mo xi the way to the park",
+                "moe shi the way to the park",
+                "meaux shi the way to the park",
+                "Show we the mei to the park",
+                "mow shieh the way to the park",
+                "mow shih the way to the park",
+                "Show wee the maye to the park",
+                "woe me the shea to the park",
+                "Show wee the mae to the park",
+                "Show we the maye to the park",
+                "moe she the way to the park",
+                "whoa me the shay to the park",
+                "mo shieh the way to the park",
+                "Show oui the mei to the park"
+            ]
+        },
+        {
+            "intent": "Adjust volume",
+            "examples": [
+                "Show t. the way mu the park",
+                "Show t the way moo the park",
+                "tow me the way schou the park",
+                "toe me the way schou the park",
+                "Show t. the way moo the park",
+                "towe me the way schou the park",
+                "Show tee the way moo the park",
+                "Show tea the way moo the park",
+                "toe me the way hsu the park"
+            ]
+        },
+        {
+            "intent": "Adjust seat",
+            "examples": [
+                "toe me the way shoo the park"
+            ]
+        },
+        {
+            "intent": "Make a call",
+            "examples": [
+                "tow me the way hsu the park",
+                "towe me the way shu the park",
+                "tow me the way schue the park"
+            ]
+        },
+        {
+            "intent": "Change driving mode",
+            "examples": [
+                "Show te the way mu the park",
+                "Lead tee mu the supermarket"
+            ]
+        },
+        {
+            "intent": "Check oil level",
+            "examples": [
+                "Lead t. moo the supermarket"
+            ]
+        },
+        {
+            "intent": "Check battery status",
+            "examples": [
+                "Lead t. mu the supermarket"
+            ]
+        },
+        {
+            "intent": "Close trunk",
+            "examples": [
+                "Find a tuite ru the nearest bank"
+            ]
+        }
+    ]
+}

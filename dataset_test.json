@@ -1,0 +1,33 @@
+{
+    "intents": [
+      {
+        "intent": "Turn on defrost",
+        "examples": [
+          "Activate defrost mode",
+          "Turn on the defroster",
+          "Engage defrost function",
+          "Start defrosting",
+          "Enable the defrost system"
+        ]
+      },
+      {
+        "intent": "Turn off defrost",
+        "examples": [
+          "Turn off the defroster",
+          "Deactivate defrost mode",
+          "Stop defrosting",
+          "Disable the defrost system"
+        ]
+      },
+      {
+        "intent": "Turn on cross traffic alert",
+        "examples": [
+          "Activate cross traffic alert",
+          "Turn on cross traffic warning",
+          "Enable cross traffic detection",
+          "Start cross traffic alert system"
+        ]
+      }
+    ]
+  }
+  

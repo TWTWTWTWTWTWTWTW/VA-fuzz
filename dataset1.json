@@ -1,0 +1,980 @@
+{
+    "intents": [
+      {
+        "intent": "Turn on air conditioning",
+        "examples": [
+          "Turn on the air conditioning",
+          "Start the air conditioning",
+          "Activate the air conditioning",
+          "Switch on the AC",
+          "Enable air conditioning",
+          "Turn on the climate control",
+          "Power up the air conditioning",
+          "Set air conditioning to on",
+          "Turn on cooling",
+          "Engage the air conditioning"
+        ]
+      },
+      {
+        "intent": "Navigate to destination",
+        "examples": [
+          "Navigate to the nearest gas station",
+          "Set destination to the nearest restaurant",
+          "Route me to the airport",
+          "Get directions to the mall",
+          "Find the closest hospital",
+          "Guide me to the office",
+          "Show me the way to the park",
+          "Lead me to the supermarket",
+          "Direct me to the hotel",
+          "Find a route to the nearest bank"
+        ]
+      },
+      {
+        "intent": "Play music",
+        "examples": [
+          "Play some music",
+          "Start playing music",
+          "Play my favorite songs",
+          "Begin music playback",
+          "Play the latest hits",
+          "Shuffle my music playlist",
+          "Turn on the music",
+          "Play relaxing music",
+          "Start the music",
+          "Play the radio"
+        ]
+      },
+      {
+        "intent": "Adjust volume",
+        "examples": [
+          "Turn up the volume",
+          "Increase the volume",
+          "Set volume to maximum",
+          "Raise the volume",
+          "Boost the audio level",
+          "Turn down the volume",
+          "Decrease the volume",
+          "Lower the volume",
+          "Reduce the audio level",
+          "Mute the sound"
+        ]
+      },
+      {
+        "intent": "Make a call",
+        "examples": [
+          "Call John",
+          "Dial my wife",
+          "Make a phone call to Emily",
+          "Call the office",
+          "Dial the emergency number",
+          "Phone my friend",
+          "Call the nearest tow service",
+          "Make a call to customer support",
+          "Connect me to Lisa",
+          "Call home"
+        ]
+      },
+      {
+        "intent": "Send a text message",
+        "examples": [
+          "Send a text to Mike",
+          "Text Alice saying I'll be late",
+          "Send a message to my brother",
+          "Compose a text for Sarah",
+          "Send an SMS to Jane",
+          "Text my spouse that I am on my way",
+          "Send a WhatsApp message to Tom",
+          "Send a quick message to the team",
+          "Draft a message to my boss",
+          "Send a text message to my friend"
+        ]
+      },
+      {
+        "intent": "Check weather",
+        "examples": [
+          "What's the weather today?",
+          "Tell me the weather forecast",
+          "Check the current temperature",
+          "What's the weather like outside?",
+          "Give me today's weather report",
+          "How's the weather going to be?",
+          "What's the weather condition right now?",
+          "Get the weather update",
+          "Show me the weather for today",
+          "Tell me if it will rain today"
+        ]
+      },
+      {
+        "intent": "Set temperature",
+        "examples": [
+          "Set the temperature to 72 degrees",
+          "Adjust the climate control to 22 degrees",
+          "Change the temperature to 75 degrees",
+          "Set the cabin temperature to 21 degrees",
+          "Increase the temperature to 74 degrees",
+          "Decrease the temperature to 68 degrees",
+          "Set the air conditioning to 20 degrees",
+          "Set heater to 68 degrees",
+          "Change temperature to 72 Fahrenheit",
+          "Adjust to 70 degrees"
+        ]
+      },
+      {
+        "intent": "Open windows",
+        "examples": [
+          "Open the windows",
+          "Roll down the windows",
+          "Lower the windows",
+          "Open all windows",
+          "Partially open the driver’s window",
+          "Activate the window controls",
+          "Roll up the windows",
+          "Close the windows",
+          "Adjust the window position",
+          "Set the windows to half open"
+        ]
+      },
+      {
+        "intent": "Adjust seat",
+        "examples": [
+          "Move the seat forward",
+          "Adjust the seat position",
+          "Recline the seat",
+          "Move the seat back",
+          "Set seat to the comfortable position",
+          "Adjust the lumbar support",
+          "Change seat height",
+          "Tilt the seat",
+          "Reset the seat settings",
+          "Position the seat to my preference"
+        ]
+      },
+      {
+        "intent": "Turn on lights",
+        "examples": [
+          "Turn on the headlights",
+          "Activate the interior lights",
+          "Switch on the fog lights",
+          "Turn on the brake lights",
+          "Illuminate the car lights",
+          "Engage the high beams",
+          "Power up the dashboard lights",
+          "Turn on the ambient lighting",
+          "Set the lights to on",
+          "Switch on the parking lights"
+        ]
+      },
+      {
+        "intent": "Find nearest service station",
+        "examples": [
+          "Find the closest service station",
+          "Locate the nearest repair shop",
+          "Search for nearby service centers",
+          "Show me the nearest garage",
+          "Find an auto repair shop",
+          "Locate a car service station",
+          "Find a nearby mechanic",
+          "Show the closest auto service",
+          "Search for the nearest car repair",
+          "Find the nearest service location"
+        ]
+      },
+      {
+        "intent": "Check fuel level",
+        "examples": [
+          "What's the fuel level?",
+          "Check the gas tank level",
+          "How much fuel is left?",
+          "Show me the fuel gauge",
+          "Get the current fuel status",
+          "Tell me how much gas is in the tank",
+          "Check the remaining fuel",
+          "What's the fuel level in the tank?",
+          "Get the fuel level reading",
+          "Show fuel gauge status"
+        ]
+      },
+      {
+        "intent": "Activate navigation",
+        "examples": [
+          "Start navigation",
+          "Begin the navigation system",
+          "Activate GPS navigation",
+          "Set up navigation",
+          "Turn on the navigation",
+          "Initiate the navigation",
+          "Engage navigation mode",
+          "Start the route guidance",
+          "Activate turn-by-turn directions",
+          "Enable the navigation system"
+        ]
+      },
+      {
+        "intent": "Turn off engine",
+        "examples": [
+          "Turn off the engine",
+          "Shut down the engine",
+          "Stop the engine",
+          "Deactivate the engine",
+          "Switch off the engine",
+          "Cut off the engine power",
+          "Turn the engine off",
+          "Stop the car engine",
+          "Turn the ignition off",
+          "Stop the motor"
+        ]
+      },
+      {
+        "intent": "Adjust mirrors",
+        "examples": [
+          "Adjust the side mirrors",
+          "Set the rearview mirror",
+          "Change the mirror position",
+          "Tilt the side mirrors",
+          "Move the rearview mirror",
+          "Align the mirrors",
+          "Adjust mirror angles",
+          "Set mirror settings",
+          "Fine-tune the side mirrors",
+          "Reposition the rearview mirror"
+        ]
+      },
+      {
+        "intent": "Enable Bluetooth",
+        "examples": [
+          "Turn on Bluetooth",
+          "Activate Bluetooth connection",
+          "Enable Bluetooth mode",
+          "Switch on Bluetooth",
+          "Pair with Bluetooth device",
+          "Start Bluetooth",
+          "Connect to Bluetooth",
+          "Enable Bluetooth pairing",
+          "Activate Bluetooth settings",
+          "Turn on Bluetooth feature"
+        ]
+      },
+      {
+        "intent": "Check tire pressure",
+        "examples": [
+          "Check the tire pressure",
+          "Get tire pressure readings",
+          "Show the tire pressure",
+          "Monitor tire pressure",
+          "Tell me the current tire pressure",
+          "Report tire pressure levels",
+          "Check the air pressure in tires",
+          "Display tire pressure status",
+          "Measure the tire pressure",
+          "Get the tire pressure gauge"
+        ]
+      },
+      {
+        "intent": "Change driving mode",
+        "examples": [
+          "Switch to sport mode",
+          "Change to eco mode",
+          "Set driving mode to comfort",
+          "Select off-road mode",
+          "Adjust to standard driving mode",
+          "Change vehicle mode",
+          "Switch driving mode to eco",
+          "Set mode to performance",
+          "Engage driving mode",
+          "Change to normal driving mode"
+        ]
+      },
+      {
+        "intent": "Enable cruise control",
+        "examples": [
+          "Turn on cruise control",
+          "Activate cruise mode",
+          "Set cruise control",
+          "Engage cruise control",
+          "Start cruise control",
+          "Enable the cruise feature",
+          "Activate the speed control",
+          "Set the cruise speed",
+          "Engage the speed control system",
+          "Turn on the speed cruise"
+        ]
+      },
+      {
+        "intent": "Set navigation volume",
+        "examples": [
+          "Increase navigation volume",
+          "Turn up the navigation sound",
+          "Set navigation voice volume",
+          "Adjust the volume for navigation",
+          "Raise navigation volume",
+          "Decrease navigation sound",
+          "Lower the navigation volume",
+          "Set voice prompts volume",
+          "Change navigation audio level",
+          "Set the navigation system volume"
+        ]
+      },
+      {
+        "intent": "Turn on seat heaters",
+        "examples": [
+          "Activate seat heaters",
+          "Turn on heated seats",
+          "Start seat heating",
+          "Enable seat heaters",
+          "Switch on the seat heater",
+          "Turn up seat warmth",
+          "Heat the seats",
+          "Engage seat heating",
+          "Power up the seat heaters",
+          "Activate heating for seats"
+        ]
+      },
+      {
+        "intent": "Adjust climate control",
+        "examples": [
+          "Change climate control settings",
+          "Set the climate to 21 degrees",
+          "Adjust the climate system",
+          "Set air temperature to 22 degrees",
+          "Modify climate control",
+          "Change cabin temperature",
+          "Adjust temperature settings",
+          "Set climate control to auto",
+          "Change the air conditioning settings",
+          "Adjust climate mode"
+        ]
+      },
+      {
+        "intent": "Turn off lights",
+        "examples": [
+          "Turn off the headlights",
+          "Switch off the interior lights",
+          "Deactivate the fog lights",
+          "Turn off the brake lights",
+          "Dim the car lights",
+          "Turn off the high beams",
+          "Power down the dashboard lights",
+          "Switch off the ambient lighting",
+          "Turn off the parking lights",
+          "Deactivate all lights"
+        ]
+      },
+      {
+        "intent": "Open trunk",
+        "examples": [
+          "Open the trunk",
+          "Pop the trunk",
+          "Unlock the trunk",
+          "Activate the trunk release",
+          "Open rear trunk",
+          "Lift the trunk lid",
+          "Release the trunk",
+          "Set the trunk to open",
+          "Open the back compartment",
+          "Unlock rear hatch"
+        ]
+      },
+      {
+        "intent": "Close trunk",
+        "examples": [
+          "Close the trunk",
+          "Shut the trunk",
+          "Lock the trunk",
+          "Activate trunk closure",
+          "Close the rear trunk",
+          "Lower the trunk lid",
+          "Secure the trunk",
+          "Set the trunk to close",
+          "Close the back compartment",
+          "Lock rear hatch"
+        ]
+      },
+      {
+        "intent": "Check battery status",
+        "examples": [
+          "Check the battery status",
+          "Get battery health report",
+          "Show battery charge level",
+          "Monitor battery condition",
+          "Tell me the battery status",
+          "Report on battery level",
+          "Display battery health",
+          "Check the car battery",
+          "Measure battery charge",
+          "Get the battery status reading"
+        ]
+      },
+      {
+        "intent": "Turn on hazard lights",
+        "examples": [
+          "Turn on hazard lights",
+          "Activate emergency flashers",
+          "Switch on the hazard signals",
+          "Engage hazard lights",
+          "Start the hazard warning lights",
+          "Enable the emergency lights",
+          "Turn on the flashers",
+          "Activate the hazard warning",
+          "Switch on emergency lights",
+          "Engage the warning lights"
+        ]
+      },
+      {
+        "intent": "Turn off hazard lights",
+        "examples": [
+          "Turn off hazard lights",
+          "Deactivate emergency flashers",
+          "Switch off the hazard signals",
+          "Disable hazard lights",
+          "Stop the hazard warning lights",
+          "Turn off the flashers",
+          "Deactivate the emergency lights",
+          "Turn off the hazard warning",
+          "Switch off emergency lights",
+          "Disengage the warning lights"
+        ]
+      },
+      {
+        "intent": "Reset navigation system",
+        "examples": [
+          "Reset the navigation system",
+          "Reboot navigation",
+          "Restart the GPS",
+          "Reset route guidance",
+          "Clear navigation settings",
+          "Reinitialize navigation system",
+          "Reset map settings",
+          "Restart the navigation software",
+          "Clear all navigation data",
+          "Reset GPS system"
+        ]
+      },
+      {
+        "intent": "Enable voice recognition",
+        "examples": [
+          "Turn on voice recognition",
+          "Activate voice commands",
+          "Enable speech recognition",
+          "Start voice control",
+          "Turn on the voice assistant",
+          "Engage voice recognition system",
+          "Set up voice commands",
+          "Activate speech recognition feature",
+          "Enable the voice assistant",
+          "Start using voice control"
+        ]
+      },
+      {
+        "intent": "Turn off voice recognition",
+        "examples": [
+          "Turn off voice recognition",
+          "Deactivate voice commands",
+          "Disable speech recognition",
+          "Stop voice control",
+          "Turn off the voice assistant",
+          "Deactivate voice recognition system",
+          "Turn off voice commands",
+          "Disable the speech recognition feature",
+          "Stop using voice control",
+          "Deactivate the voice assistant"
+        ]
+      },
+      {
+        "intent": "Check car status",
+        "examples": [
+          "Check the car status",
+          "Get vehicle status report",
+          "Show the car's current status",
+          "Monitor vehicle health",
+          "Tell me the car status",
+          "Report on car condition",
+          "Display vehicle status",
+          "Check the car system",
+          "Measure car status",
+          "Get vehicle health check"
+        ]
+      },
+      {
+        "intent": "Enable parking assist",
+        "examples": [
+          "Turn on parking assist",
+          "Activate parking sensors",
+          "Enable parking aid",
+          "Start parking assist mode",
+          "Engage parking assistance",
+          "Activate parking help system",
+          "Switch on parking assist feature",
+          "Enable the parking assist",
+          "Turn on the parking sensors",
+          "Activate the parking aid"
+        ]
+      },
+      {
+        "intent": "Disable parking assist",
+        "examples": [
+          "Turn off parking assist",
+          "Deactivate parking sensors",
+          "Disable parking aid",
+          "Stop parking assist mode",
+          "Disengage parking assistance",
+          "Deactivate parking help system",
+          "Switch off parking assist feature",
+          "Disable the parking assist",
+          "Turn off the parking sensors",
+          "Deactivate the parking aid"
+        ]
+      },
+      {
+        "intent": "Set profile",
+        "examples": [
+          "Set my driver profile",
+          "Activate driver profile",
+          "Change to user profile",
+          "Select driver profile",
+          "Switch to my profile",
+          "Set up driver preferences",
+          "Load driver profile",
+          "Adjust settings to my profile",
+          "Change profile settings",
+          "Apply driver profile"
+        ]
+      },
+      {
+        "intent": "Turn on defrost",
+        "examples": [
+          "Activate defrost mode",
+          "Turn on the defroster",
+          "Engage defrost function",
+          "Start defrosting",
+          "Enable the defrost system",
+          "Turn on windshield defrost",
+          "Activate window defroster",
+          "Engage the defrost feature",
+          "Start the defrost process",
+          "Turn on the front defroster"
+        ]
+      },
+      {
+        "intent": "Turn off defrost",
+        "examples": [
+          "Turn off the defroster",
+          "Deactivate defrost mode",
+          "Stop defrosting",
+          "Disable the defrost system",
+          "Turn off windshield defrost",
+          "Deactivate window defroster",
+          "Stop the defrost feature",
+          "Turn off the defrost process",
+          "Disable the front defroster",
+          "Turn off the defrost function"
+        ]
+      },
+      {
+        "intent": "Set seat position",
+        "examples": [
+          "Adjust the seat position",
+          "Move seat forward",
+          "Recline the seat",
+          "Set seat to comfortable position",
+          "Change seat angle",
+          "Position seat to my preference",
+          "Adjust the driver's seat",
+          "Set seat settings",
+          "Change the seat height",
+          "Move the seat back"
+        ]
+      },
+      {
+        "intent": "Check oil level",
+        "examples": [
+          "Check the oil level",
+          "Get the current oil status",
+          "Show oil level",
+          "Monitor oil condition",
+          "Tell me the oil level",
+          "Report on oil level",
+          "Display the oil gauge",
+          "Check the engine oil",
+          "Measure oil level",
+          "Get oil status reading"
+        ]
+      },
+      {
+        "intent": "Turn on wipers",
+        "examples": [
+          "Activate windshield wipers",
+          "Turn on the wipers",
+          "Start wiper system",
+          "Engage wipers",
+          "Turn on rain sensors",
+          "Enable wipers",
+          "Switch on windshield wipers",
+          "Start wiper blades",
+          "Engage the wiper function",
+          "Turn on the rain wipers"
+        ]
+      },
+      {
+        "intent": "Turn off wipers",
+        "examples": [
+          "Deactivate windshield wipers",
+          "Turn off the wipers",
+          "Stop the wiper system",
+          "Disengage wipers",
+          "Turn off rain sensors",
+          "Disable wipers",
+          "Switch off windshield wipers",
+          "Stop wiper blades",
+          "Disengage the wiper function",
+          "Turn off the rain wipers"
+        ]
+      },
+      {
+        "intent": "Set reminder",
+        "examples": [
+          "Set a reminder for 3 PM",
+          "Create a reminder for an appointment",
+          "Schedule a reminder for fuel",
+          "Set a task reminder",
+          "Add a reminder for meeting",
+          "Create a daily reminder",
+          "Set up a reminder for the dentist",
+          "Schedule reminder for maintenance",
+          "Add a reminder to call someone",
+          "Set a notification for departure"
+        ]
+      },
+      {
+        "intent": "Turn on radio",
+        "examples": [
+          "Turn on the radio",
+          "Start the radio",
+          "Activate radio mode",
+          "Switch on radio",
+          "Play the radio",
+          "Turn up the radio",
+          "Engage radio feature",
+          "Start listening to the radio",
+          "Activate FM radio",
+          "Set the radio to on"
+        ]
+      },
+      {
+        "intent": "Turn off radio",
+        "examples": [
+          "Turn off the radio",
+          "Deactivate the radio",
+          "Stop the radio",
+          "Switch off radio",
+          "Turn down the radio",
+          "Disable radio mode",
+          "Stop listening to the radio",
+          "Deactivate FM radio",
+          "Shut off the radio",
+          "Set the radio to off"
+        ]
+      },
+      {
+        "intent": "Turn on navigation",
+        "examples": [
+          "Activate navigation system",
+          "Turn on GPS navigation",
+          "Start navigation",
+          "Enable navigation",
+          "Set up the navigation system",
+          "Engage GPS mode",
+          "Activate route guidance",
+          "Turn on map directions",
+          "Start turn-by-turn navigation",
+          "Enable the navigation feature"
+        ]
+      },
+      {
+        "intent": "Turn off navigation",
+        "examples": [
+          "Deactivate navigation system",
+          "Turn off GPS navigation",
+          "Stop navigation",
+          "Disable navigation",
+          "Turn off route guidance",
+          "Deactivate map directions",
+          "Stop turn-by-turn navigation",
+          "Disable GPS mode",
+          "Turn off the navigation feature",
+          "Stop the navigation system"
+        ]
+      },
+      {
+        "intent": "Enable sport mode",
+        "examples": [
+          "Activate sport mode",
+          "Turn on sport mode",
+          "Engage sport driving mode",
+          "Set the car to sport mode",
+          "Switch to sport mode",
+          "Enable performance mode",
+          "Activate driving mode sport",
+          "Change to sport driving mode",
+          "Start sport mode",
+          "Set vehicle to sport mode"
+        ]
+      },
+      {
+        "intent": "Disable sport mode",
+        "examples": [
+          "Deactivate sport mode",
+          "Turn off sport mode",
+          "Disable performance mode",
+          "Switch off sport driving mode",
+          "Change to normal mode",
+          "Turn off driving mode sport",
+          "Set vehicle to standard mode",
+          "Stop sport mode",
+          "Deactivate performance mode",
+          "Switch to comfort mode"
+        ]
+      },
+      {
+        "intent": "Turn on heated steering wheel",
+        "examples": [
+          "Activate heated steering wheel",
+          "Turn on steering wheel heater",
+          "Engage heated steering wheel",
+          "Enable steering wheel heating",
+          "Start the heated steering wheel",
+          "Switch on steering wheel heater",
+          "Turn up the steering wheel heat",
+          "Activate heating for steering wheel",
+          "Engage the heated steering feature",
+          "Power up the steering wheel heater"
+        ]
+      },
+      {
+        "intent": "Turn off heated steering wheel",
+        "examples": [
+          "Deactivate heated steering wheel",
+          "Turn off steering wheel heater",
+          "Stop heating the steering wheel",
+          "Disable steering wheel heating",
+          "Turn down the steering wheel heat",
+          "Deactivate the heated steering wheel",
+          "Stop the heated steering feature",
+          "Switch off steering wheel heater",
+          "Turn off the steering wheel heating",
+          "Deactivate the heating for steering wheel"
+        ]
+      },
+      {
+        "intent": "Set navigation preferences",
+        "examples": [
+          "Set navigation preferences to shortest route",
+          "Change navigation settings to avoid tolls",
+          "Update navigation preferences to avoid highways",
+          "Set route preference to fastest",
+          "Adjust navigation settings to scenic route",
+          "Configure navigation for least traffic",
+          "Set navigation to preferred routes",
+          "Change navigation options to avoid ferries",
+          "Update map preferences",
+          "Set GPS to avoid toll roads"
+        ]
+      },
+      {
+        "intent": "Turn on lane assist",
+        "examples": [
+          "Activate lane assist",
+          "Turn on lane keeping assist",
+          "Enable lane departure warning",
+          "Start lane assist system",
+          "Engage lane assist feature",
+          "Activate lane guidance",
+          "Switch on lane keeping system",
+          "Turn on lane assist mode",
+          "Enable lane departure assist",
+          "Start the lane assist function"
+        ]
+      },
+      {
+        "intent": "Turn off lane assist",
+        "examples": [
+          "Deactivate lane assist",
+          "Turn off lane keeping assist",
+          "Disable lane departure warning",
+          "Stop lane assist system",
+          "Disengage lane assist feature",
+          "Deactivate lane guidance",
+          "Switch off lane keeping system",
+          "Turn off lane assist mode",
+          "Disable lane departure assist",
+          "Stop the lane assist function"
+        ]
+      },
+      {
+        "intent": "Enable rearview camera",
+        "examples": [
+          "Turn on rearview camera",
+          "Activate rearview camera",
+          "Enable backup camera",
+          "Start the rear camera",
+          "Engage rearview camera system",
+          "Switch on the rear camera",
+          "Activate the backup camera",
+          "Turn on the rear view camera",
+          "Enable the rear camera",
+          "Start the rearview system"
+        ]
+      },
+      {
+        "intent": "Disable rearview camera",
+        "examples": [
+          "Turn off rearview camera",
+          "Deactivate rearview camera",
+          "Disable backup camera",
+          "Stop the rear camera",
+          "Disengage rearview camera system",
+          "Switch off the rear camera",
+          "Deactivate the backup camera",
+          "Turn off the rear view camera",
+          "Disable the rear camera",
+          "Stop the rearview system"
+        ]
+      },
+      {
+        "intent": "Enable automatic braking",
+        "examples": [
+          "Turn on automatic braking",
+          "Activate automatic brake system",
+          "Enable auto braking",
+          "Start automatic braking mode",
+          "Engage automatic brake feature",
+          "Switch on auto brake",
+          "Turn on the automatic braking system",
+          "Activate the auto brake system",
+          "Enable braking assistance",
+          "Start the auto braking function"
+        ]
+      },
+      {
+        "intent": "Disable automatic braking",
+        "examples": [
+          "Turn off automatic braking",
+          "Deactivate automatic brake system",
+          "Disable auto braking",
+          "Stop automatic braking mode",
+          "Disengage automatic brake feature",
+          "Switch off auto brake",
+          "Turn off the automatic braking system",
+          "Deactivate the auto brake system",
+          "Disable braking assistance",
+          "Stop the auto braking function"
+        ]
+      },
+      {
+        "intent": "Turn on ambient lighting",
+        "examples": [
+          "Activate ambient lighting",
+          "Turn on the interior lights",
+          "Enable ambient light mode",
+          "Start the ambient lighting system",
+          "Switch on ambient lights",
+          "Turn on the car's ambient illumination",
+          "Engage the ambient light feature",
+          "Activate the interior lighting",
+          "Set ambient lighting to on",
+          "Turn up the ambient lighting"
+        ]
+      },
+      {
+        "intent": "Turn off ambient lighting",
+        "examples": [
+          "Deactivate ambient lighting",
+          "Turn off the interior lights",
+          "Disable ambient light mode",
+          "Stop the ambient lighting system",
+          "Switch off ambient lights",
+          "Turn off the car's ambient illumination",
+          "Disengage the ambient light feature",
+          "Deactivate the interior lighting",
+          "Set ambient lighting to off",
+          "Turn down the ambient lighting"
+        ]
+      },
+      {
+        "intent": "Check engine status",
+        "examples": [
+          "Check the engine status",
+          "Get engine health report",
+          "Show engine condition",
+          "Monitor engine performance",
+          "Tell me the engine status",
+          "Report on engine condition",
+          "Display engine health",
+          "Check the engine system",
+          "Measure engine performance",
+          "Get engine status reading"
+        ]
+      },
+      {
+        "intent": "Enable blind spot monitoring",
+        "examples": [
+          "Turn on blind spot monitoring",
+          "Activate blind spot detection",
+          "Enable blind spot system",
+          "Start blind spot monitoring",
+          "Engage blind spot assist",
+          "Switch on blind spot monitoring",
+          "Turn on blind spot feature",
+          "Activate the blind spot alert",
+          "Enable blind spot warning",
+          "Start the blind spot monitoring system"
+        ]
+      },
+      {
+        "intent": "Disable blind spot monitoring",
+        "examples": [
+          "Turn off blind spot monitoring",
+          "Deactivate blind spot detection",
+          "Disable blind spot system",
+          "Stop blind spot monitoring",
+          "Disengage blind spot assist",
+          "Switch off blind spot monitoring",
+          "Turn off blind spot feature",
+          "Deactivate the blind spot alert",
+          "Disable blind spot warning",
+          "Stop the blind spot monitoring system"
+        ]
+      },
+      {
+        "intent": "Turn on cross traffic alert",
+        "examples": [
+          "Activate cross traffic alert",
+          "Turn on cross traffic warning",
+          "Enable cross traffic detection",
+          "Start cross traffic alert system",
+          "Engage cross traffic assist",
+          "Switch on cross traffic alert",
+          "Turn on cross traffic feature",
+          "Activate the cross traffic warning",
+          "Enable cross traffic monitoring",
+          "Start the cross traffic alert system"
+        ]
+      },
+      {
+        "intent": "Turn off cross traffic alert",
+        "examples": [
+          "Deactivate cross traffic alert",
+          "Turn off cross traffic warning",
+          "Disable cross traffic detection",
+          "Stop cross traffic alert system",
+          "Disengage cross traffic assist",
+          "Switch off cross traffic alert",
+          "Turn off cross traffic feature",
+          "Deactivate the cross traffic warning",
+          "Disable cross traffic monitoring",
+          "Stop the cross traffic alert system"
+        ]
+      }
+    ]
+  }
+  

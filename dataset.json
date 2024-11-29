@@ -1,0 +1,35 @@
+{
+    "intents": [
+      {
+        "intent": "Turn on air conditioning",
+        "examples": [
+          "Turn on the air conditioning",
+          "Start the air conditioning",
+          "Activate the air conditioning",
+          "Switch on the AC",
+          "Enable air conditioning",
+          "Turn on the climate control",
+          "Power up the air conditioning",
+          "Set air conditioning to on",
+          "Turn on cooling",
+          "Engage the air conditioning"
+        ]
+      },
+      {
+        "intent": "Navigate to destination",
+        "examples": [
+          "Navigate to the nearest gas station",
+          "Set destination to the nearest restaurant",
+          "Route me to the airport",
+          "Get directions to the mall",
+          "Find the closest hospital",
+          "Guide me to the office",
+          "Show me the way to the park",
+          "Lead me to the supermarket",
+          "Direct me to the hotel",
+          "Find a route to the nearest bank"
+        ]
+      }      
+    ]
+  }
+  
